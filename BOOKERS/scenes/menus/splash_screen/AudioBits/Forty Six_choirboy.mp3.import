@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ble1pb15g7tvw"
+path="res://.godot/imported/Forty Six_choirboy.mp3-cda3d42d40c2ad1536db383cf4c94c66.mp3str"
+
+[deps]
+
+source_file="res://scenes/menus/splash_screen/AudioBits/Forty Six_choirboy.mp3"
+dest_files=["res://.godot/imported/Forty Six_choirboy.mp3-cda3d42d40c2ad1536db383cf4c94c66.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

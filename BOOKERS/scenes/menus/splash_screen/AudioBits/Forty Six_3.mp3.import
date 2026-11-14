@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cji8llvcp1bgh"
+path="res://.godot/imported/Forty Six_3.mp3-b08029d24ca1d4dbc97a004c849e23f6.mp3str"
+
+[deps]
+
+source_file="res://scenes/menus/splash_screen/AudioBits/Forty Six_3.mp3"
+dest_files=["res://.godot/imported/Forty Six_3.mp3-b08029d24ca1d4dbc97a004c849e23f6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

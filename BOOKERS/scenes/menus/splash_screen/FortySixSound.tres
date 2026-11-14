@@ -1,0 +1,49 @@
+[gd_resource type="AudioStreamRandomizer" format=3 uid="uid://bcukjn8ijj2ol"]
+
+[ext_resource type="AudioStream" uid="uid://t8sksbr5mq17" path="res://scenes/menus/splash_screen/AudioBits/Forty Six_1.mp3" id="1_vb4vk"]
+[ext_resource type="AudioStream" uid="uid://cy2m7rw1w2vvr" path="res://scenes/menus/splash_screen/AudioBits/Forty Six_2.mp3" id="2_xc1u6"]
+[ext_resource type="AudioStream" uid="uid://dr2srjxbbhbra" path="res://scenes/menus/splash_screen/AudioBits/Forty Six_Female.mp3" id="3_kv7mo"]
+[ext_resource type="AudioStream" uid="uid://cdfpggyxhaoir" path="res://scenes/menus/splash_screen/AudioBits/Forty Six_Whisper.mp3" id="4_p1yr2"]
+[ext_resource type="AudioStream" uid="uid://ble1pb15g7tvw" path="res://scenes/menus/splash_screen/AudioBits/Forty Six_choirboy.mp3" id="5_cnpa2"]
+[ext_resource type="AudioStream" uid="uid://bg68lea88cyl7" path="res://scenes/menus/splash_screen/AudioBits/Forty Six_collosus.mp3" id="6_k2uqe"]
+[ext_resource type="AudioStream" uid="uid://bjahtr3rppvg7" path="res://scenes/menus/splash_screen/AudioBits/Forty Six_defender.mp3" id="7_ii4bm"]
+[ext_resource type="AudioStream" uid="uid://dfk0h5raxynw4" path="res://scenes/menus/splash_screen/AudioBits/Forty Six_mannequin.mp3" id="8_3br7p"]
+[ext_resource type="AudioStream" uid="uid://odc5bew6hkqk" path="res://scenes/menus/splash_screen/AudioBits/46and1.wav" id="9_yinnh"]
+[ext_resource type="AudioStream" uid="uid://cbwcgvsu7nsum" path="res://scenes/menus/splash_screen/AudioBits/46and2.wav" id="10_yer6x"]
+[ext_resource type="AudioStream" uid="uid://dl50i6phxj6a3" path="res://scenes/menus/splash_screen/AudioBits/46and3.wav" id="11_1vtk7"]
+[ext_resource type="AudioStream" uid="uid://3ym2wgcvb1oq" path="res://scenes/menus/splash_screen/AudioBits/evilgoblinfortysix.mp3" id="12_iq71j"]
+[ext_resource type="AudioStream" uid="uid://cji8llvcp1bgh" path="res://scenes/menus/splash_screen/AudioBits/Forty Six_3.mp3" id="13_su51k"]
+[ext_resource type="AudioStream" uid="uid://bd00df2ftod0p" path="res://scenes/menus/splash_screen/AudioBits/HahFortySixMoreLikeFortySixSEven.mp3" id="14_ivuoj"]
+[ext_resource type="AudioStream" uid="uid://ddjrbciskqgnq" path="res://scenes/menus/splash_screen/AudioBits/jesus forty six.wav" id="15_euabs"]
+[ext_resource type="AudioStream" uid="uid://b02iwxp2nw4tg" path="res://scenes/menus/splash_screen/AudioBits/Forty Six_4.mp3" id="16_mwgmq"]
+[ext_resource type="AudioStream" uid="uid://bj4aqwlnfxwoh" path="res://scenes/menus/splash_screen/AudioBits/Forty Six_5.mp3" id="17_460nk"]
+[ext_resource type="AudioStream" uid="uid://n23poirmgxtu" path="res://scenes/menus/splash_screen/AudioBits/Forty Six_6.mp3" id="18_njwxs"]
+[ext_resource type="AudioStream" uid="uid://buipp0davif66" path="res://scenes/menus/splash_screen/AudioBits/Forty Six_7.mp3" id="19_iogfp"]
+[ext_resource type="AudioStream" uid="uid://bvbsqnb7n6fhw" path="res://scenes/menus/splash_screen/AudioBits/Forty Six_8.mp3" id="20_fqon7"]
+[ext_resource type="AudioStream" uid="uid://crs4kq13r63em" path="res://scenes/menus/splash_screen/AudioBits/Forty Six_9.mp3" id="21_x02w4"]
+[ext_resource type="AudioStream" uid="uid://dkuv6xok6xcit" path="res://scenes/menus/splash_screen/AudioBits/Forty Six_Male.mp3" id="22_uqrc8"]
+
+[resource]
+streams_count = 22
+stream_0/stream = ExtResource("1_vb4vk")
+stream_1/stream = ExtResource("2_xc1u6")
+stream_2/stream = ExtResource("13_su51k")
+stream_3/stream = ExtResource("16_mwgmq")
+stream_4/stream = ExtResource("17_460nk")
+stream_5/stream = ExtResource("18_njwxs")
+stream_6/stream = ExtResource("19_iogfp")
+stream_7/stream = ExtResource("20_fqon7")
+stream_8/stream = ExtResource("21_x02w4")
+stream_9/stream = ExtResource("22_uqrc8")
+stream_10/stream = ExtResource("3_kv7mo")
+stream_11/stream = ExtResource("4_p1yr2")
+stream_12/stream = ExtResource("5_cnpa2")
+stream_13/stream = ExtResource("6_k2uqe")
+stream_14/stream = ExtResource("7_ii4bm")
+stream_15/stream = ExtResource("8_3br7p")
+stream_16/stream = ExtResource("9_yinnh")
+stream_17/stream = ExtResource("10_yer6x")
+stream_18/stream = ExtResource("11_1vtk7")
+stream_19/stream = ExtResource("12_iq71j")
+stream_20/stream = ExtResource("14_ivuoj")
+stream_21/stream = ExtResource("15_euabs")

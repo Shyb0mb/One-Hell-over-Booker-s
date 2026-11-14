@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dfk0h5raxynw4"
+path="res://.godot/imported/Forty Six_mannequin.mp3-584ab07cdefd0a6549c3ea75a802a66d.mp3str"
+
+[deps]
+
+source_file="res://scenes/menus/splash_screen/AudioBits/Forty Six_mannequin.mp3"
+dest_files=["res://.godot/imported/Forty Six_mannequin.mp3-584ab07cdefd0a6549c3ea75a802a66d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

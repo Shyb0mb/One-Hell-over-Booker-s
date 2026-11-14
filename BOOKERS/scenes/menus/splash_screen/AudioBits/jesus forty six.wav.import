@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ddjrbciskqgnq"
+path="res://.godot/imported/jesus forty six.wav-b7c99210c5f41359be07578684af5837.sample"
+
+[deps]
+
+source_file="res://scenes/menus/splash_screen/AudioBits/jesus forty six.wav"
+dest_files=["res://.godot/imported/jesus forty six.wav-b7c99210c5f41359be07578684af5837.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

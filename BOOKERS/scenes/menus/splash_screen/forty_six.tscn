@@ -1,0 +1,117 @@
+[gd_scene format=3 uid="uid://dkpyemeg14mpq"]
+
+[ext_resource type="Texture2D" uid="uid://drec1vg7naxpr" path="res://scenes/menus/splash_screen/Forty Six.png" id="1_76qwk"]
+[ext_resource type="Script" uid="uid://d1hfcyf4e11sx" path="res://scenes/menus/splash_screen/forty_six.gd" id="1_j4x3m"]
+[ext_resource type="PackedScene" uid="uid://vp765kg2tok5" path="res://scenes/menus/main_menu/main_menu.tscn" id="2_g7cap"]
+[ext_resource type="AudioStream" uid="uid://bcukjn8ijj2ol" path="res://scenes/menus/splash_screen/FortySixSound.tres" id="2_j4x3m"]
+
+[sub_resource type="Animation" id="Animation_eefe0"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_j4x3m"]
+resource_name = "fadein"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_dmjkc"]
+resource_name = "fadeout"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.25),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_raye2"]
+resource_name = "thing"
+length = 4.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.25, 0.5, 0.75, 3, 3.25, 3.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_j82q3"]
+_data = {
+&"RESET": SubResource("Animation_eefe0"),
+&"fadein": SubResource("Animation_j4x3m"),
+&"fadeout": SubResource("Animation_dmjkc"),
+&"thing": SubResource("Animation_raye2")
+}
+
+[node name="FortySix" type="Node2D" unique_id=2125395826]
+script = ExtResource("1_j4x3m")
+gotoscene = ExtResource("2_g7cap")
+funnyBits = true
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=642782954]
+
+[node name="FortySix" type="Sprite2D" parent="." unique_id=1275695333]
+texture = ExtResource("1_76qwk")
+
+[node name="Anim" type="AnimationPlayer" parent="FortySix" unique_id=1569931505]
+libraries/ = SubResource("AnimationLibrary_j82q3")
+autoplay = &"fadein"
+
+[node name="Sound" type="AudioStreamPlayer" parent="." unique_id=1385007515]
+stream = ExtResource("2_j4x3m")
+volume_db = -2.5
+autoplay = true
+
+[node name="Background" type="ColorRect" parent="." unique_id=1364963162]
+z_index = -15
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -594.0
+offset_top = -448.0
+offset_right = 594.0
+offset_bottom = 512.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Timer" type="Timer" parent="." unique_id=47977192]
+one_shot = true
+autostart = true
+
+[connection signal="finished" from="Sound" to="." method="_on_sound_finished"]

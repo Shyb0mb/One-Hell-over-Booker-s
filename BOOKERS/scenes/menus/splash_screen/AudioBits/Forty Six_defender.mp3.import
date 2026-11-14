@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bjahtr3rppvg7"
+path="res://.godot/imported/Forty Six_defender.mp3-b75157029f58eb59d1c7bfe2f4fe435a.mp3str"
+
+[deps]
+
+source_file="res://scenes/menus/splash_screen/AudioBits/Forty Six_defender.mp3"
+dest_files=["res://.godot/imported/Forty Six_defender.mp3-b75157029f58eb59d1c7bfe2f4fe435a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
