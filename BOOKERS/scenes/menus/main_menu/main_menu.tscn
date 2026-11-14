@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://vp765kg2tok5"]
+
+[ext_resource type="Texture2D" uid="uid://bu4gslegcxg4j" path="res://scenes/menus/main_menu/deep.png" id="1_kx65a"]
+
+[node name="MainMenu" type="CanvasLayer" unique_id=1697018252]
+
+[node name="Control" type="Control" parent="." unique_id=1129914765]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Control" unique_id=1085218787]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 32
+theme_override_constants/margin_top = 32
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/MarginContainer" unique_id=1734231457]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+
+[node name="Label" type="Label" parent="Control/MarginContainer/VBoxContainer" unique_id=1676528288]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+theme_override_font_sizes/font_size = 64
+text = "ONE
+HELL
+OVER
+BOOKER'S"
+
+[node name="BtnContainer" type="VBoxContainer" parent="Control/MarginContainer/VBoxContainer" unique_id=1188552142]
+layout_mode = 2
+offset_transform_position = Vector2(64, 0)
+offset_transform_visual_only = false
+
+[node name="Play" type="Button" parent="Control/MarginContainer/VBoxContainer/BtnContainer" unique_id=461790660]
+layout_mode = 2
+text = "MAYBE PLAY MY GAME"
+
+[node name="Quit" type="Button" parent="Control/MarginContainer/VBoxContainer/BtnContainer" unique_id=280948299]
+layout_mode = 2
+text = "Maybe Leave my game?"
+
+[node name="Deep" type="Sprite2D" parent="." unique_id=1201675645]
+position = Vector2(748, 463)
+scale = Vector2(1.7152778, 2.2569444)
+texture = ExtResource("1_kx65a")
